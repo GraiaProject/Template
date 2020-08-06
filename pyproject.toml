@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "graia-template"
-version = "0.0.1"
+version = "0.0.2"
 description = ""
 authors = ["GreyElaina <GreyElaina@outlook.com>"]
 license = "MIT"
@@ -11,7 +11,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.6"
 regex = "^2020.7.14"
-graia-application-mirai = "^0.0.5"
+graia-application-mirai = "*"
 
 [tool.poetry.dev-dependencies]
 devtools = "^0.5.1"
