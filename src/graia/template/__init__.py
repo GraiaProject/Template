@@ -1,9 +1,9 @@
 from typing import List, Union
-from graia.application.protocol.entities.message import ExternalElement, InternalElement
-from graia.application.protocol.entities.message.elements.internal import Plain
+from graia.application.message import ExternalElement, InternalElement
+from graia.application.message.elements.internal import Plain
 import regex
 from pydantic import validate_arguments
-from graia.application.protocol.entities.message.chain import MessageChain
+from graia.application.message.chain import MessageChain
 
 def list_get(l, index, default):
     if len(l)-1 >= index:
