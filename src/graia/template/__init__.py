@@ -1,5 +1,5 @@
 from typing import List, Union
-from graia.application.message import ExternalElement, InternalElement
+from graia.application.message.elements import ExternalElement, InternalElement
 from graia.application.message.elements.internal import Plain
 import regex
 from pydantic import validate_arguments
